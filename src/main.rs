@@ -1,4 +1,4 @@
-use child_care::{ChildManagement, NewBorn, Status, Condition};
+use child_care::state::{ChildManagement, NewBorn, Status, Condition};
 
 fn main() {
     let mut system = ChildManagement::new();
